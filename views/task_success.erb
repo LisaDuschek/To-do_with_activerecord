@@ -1,0 +1,10 @@
+<h1>Success</h1>
+<h1>The task:</h1>
+
+<h3>'<%= @task.description %>'</h3>
+
+<h1>has been added</h1>
+
+<div class="container">
+	<a href="/lists/<%= @list.id() %>"><button class="button btn">Return to the <%= @list.name() %> list</a>
+</div>
